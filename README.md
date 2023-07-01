@@ -1,5 +1,23 @@
 # Western Pacific Typhoon trajetories prediction
 
+### Typhoon Image Data web scrapping 
+A Typhoon_image_scrapping_tool.py is provided in this respository. Simply clone this repository and install all the dependencies. You will be able to run this script and scrap the typhoon images accordingly.
+
+Clone the respository
+```
+git clone https://github.com/manhim1218/typhoon_tracker.git
+```
+
+Install the dependencies for scrapping
+```
+pip install -r requirements.txt
+```
+
+Run the web scarpping script
+```
+python3 Typhoon_image_scrapping_tool.py
+```
+
 #### Predicting the Western Pacific Region tropical cyclones trajectories using various Deep Learning Approaches
 ``` 
 All details can be found at Thesis.pdf. 
@@ -69,6 +87,3 @@ one of the satellite image example for training in a CNN-LSTM model
 
 ### Numerical Data (17 meteorological features)
 Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
-
-### Image Data for extracing image features from pretrained Resnet18 CNN model
-A python file ie.Typhoon_image_scrapping_tool.py is provided in this respository. It might take days to scrap all satelite images from the website. ie Depends how many images you want to scrap.
