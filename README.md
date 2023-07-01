@@ -1,6 +1,11 @@
 # Western Pacific Typhoon trajetories prediction
 
-### Typhoon Image Data web scrapping 
+### General description: 
+
+In this project, different deep learning frameworks were proposed to analyze historical typhoon data from the NOAA archive and the Kitamoto laboratory data repository. The objective was to predict the tracks of typhoons in the Western Pacific Region for the next 3 hours and 6 hours. Through experimentation, it was observed that the LSTM regression model and the CNN-LSTM ensemble model yielded similar results for the 3-hour prediction. However, when it came to the 6-hour prediction, the CNN-LSTM ensemble model outperformed other deep learning approaches employed in this project. These findings suggest that the CNN-LSTM ensemble model has the potential to provide more accurate predictions, particularly if diverse image data types are incorporated to extract relevant track features in the model.
+
+
+### Typhoon Image Data web scrapping from http://agora.ex.nii.ac.jp/digital-typhoon/
 A Typhoon_image_scrapping_tool.py is provided in this respository. Simply clone this repository and install all the dependencies. You will be able to run this script and scrap the typhoon images accordingly.
 
 Clone the respository
@@ -23,11 +28,6 @@ python3 Typhoon_image_scrapping_tool.py
 All details can be found at Thesis.pdf. 
 The report outlines project motivations, model implementation methodologies and results details.
 ```
-
-### General description: 
-
-This project proposed different deep learning frameworks on real historical typhoon data extracted from the NOAA archive and the Kitamoto laboratory data repository. Various deep learning approaches were conducted to predict the next 3 hours and 6 hours of typhoon tracks in the Western Pacific Region. The experimental result showed that the LSTM regression model and the CNN-LSTM ensemble model delivered a similar prediction result toward the 3-hour prediction, however, the CNN-LSTM ensemble model performed better on 6 hours prediction compared to other deep learning approaches conducted in this project. The CNN-LSTM ensemble model could be a potential deep learning approach to deliver a more robust prediction result if diverse image data type was used to extract relevant track feature in the model.
-
 
 ### Summary (last update: July 2022)
 #### Deep learning framework: Pytorch
